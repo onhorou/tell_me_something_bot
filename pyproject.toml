@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tell-me-something-bot"
+version = "0.1.0"
+description = ""
+authors = ["onhorou <onhorou>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.13.9"
+aiogram = "3.22.0"
+transformers = "4.57.1"
+python-dotenv = "1.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
